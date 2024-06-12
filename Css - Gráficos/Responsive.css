@@ -1,0 +1,211 @@
+/* Media queries*/
+
+@media (max-width: 1000px)
+{
+    .Menu-Navegacion
+    {
+        width: 40vw;
+    }
+
+    .Titulo
+    {
+        font-size: 50px;
+    }
+
+    .Copy{
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 800px)
+{
+    .Menu-Navegacion
+    {
+        width: 30vw;
+    }
+
+    .Contenedor-Nosotros img
+    {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    
+    .Checklist-Nosotros
+    {
+        width: 80%;
+    }
+
+    .Nosotros
+    {
+        margin-bottom: 30px;
+    }
+
+    .MuestraP{
+        width: 25%;
+    }
+    
+    .MuestraM{
+        width: 35%;
+    }
+    
+    .MuestraG{
+        width: 45%;
+    }
+
+    .Img-Galeria
+    {
+        width:45%;
+    }
+    
+    .Agregar-Imagen
+    {
+        width: 80%;
+    }
+    
+    .Cont-Presentaciones
+    {
+        width: 80%;
+    }
+
+    .N-Precio{
+        margin-bottom: 25px;
+    }
+
+    .Profesionales_Contenedor
+    {
+        grid-template-columns: 30px 1fr 30px;
+    }
+
+    .Profesionales_Body
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+        gap: 3em;
+        justify-items:center ;
+    }
+
+    .Profesionales_Img
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Expertos
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Escribenos{
+        width: 100%;
+    }
+
+    .Footer-Content
+    {
+        justify-content: center;
+    }
+
+    .Social-Media
+    {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .Social-Media-Icon
+    {
+        margin-left: 0;
+    }
+
+    .Social-Media i
+    {
+        margin-left: 0;
+    }
+
+    .Contactanos
+    {
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px)
+{
+    .Menu-Navegacion
+    {
+        width: 65vw;
+    }
+
+    .Menu
+    {
+        top: 20px;
+        right: 20px;
+    }
+
+    .Titulo
+    {
+        font-size: 40px;
+    }
+
+    .Copy{
+        font-size: 25px;
+    }
+
+    .Subtitulo
+    {
+        font-size: 30px;
+    }
+
+    .Img-Galeria
+    {
+        width: 90%;
+    }
+    
+    .Agregar-Imagen
+    {
+        width: 85%;
+    }
+
+    .Profesionales
+    {
+        --padding-container: 60px 0;
+    }
+
+    .Profesionales_Contenedor
+    {
+        grid-template-columns: 28px 1fr 28px;
+        gap: .9em;
+    }
+
+    .Flechas
+    {
+        width: 100%;
+    }
+
+    .Profesionales_Course
+    {
+        margin-top: 15px;
+    }
+
+    .Social-Media
+    {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .Social-Media-Icon
+    {
+        margin-left: 0;
+    }
+
+    .Contactanos
+    {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    
+}
